@@ -1,0 +1,69 @@
+/*
+
+Theme Name: Medical
+Author: Bishan Ghosal
+
+*/
+
+
+
+img{
+
+	margin: 0px auto;
+	height :auto;
+	width:auto;
+}
+
+
+
+
+
+/*  this code for custom walker bootstrap by default uses click drop down , for hover drop down menu use this code below */
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;   
+     position: absolute;
+	top: 30px;
+}
+
+
+
+
+/* without walker
+
+.sub-menu{
+	
+	position: absolute;
+	top: 30px;
+}
+
+*/
+
+.wpcf7-not-valid-tip{
+
+    position: absolute;
+
+}
+
+
+
+div.wpcf7-validation-errors {
+border: none; 
+color: red;
+display: none;
+}
+
+div.wpcf7-response-output {
+margin: 0px;
+}
+
+p{
+
+	margin: 0px;
+	position: relative;
+}
+
+.ajax-loader{
+	visibility: visible !important;
+	display: none;
+}
